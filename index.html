@@ -6,13 +6,17 @@
     <title>Who am I?</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/main.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#header").load("header.html");
+      });
+    </script>
   </head>
   <body>
     <div id="header"></div>
     <h1>Who am I?</h1>
     <p>
-      My name is [YOUR NAME HERE]. I am a [YOUR PROFESSION HERE].
+      My name is Pablo. I am a [YOUR PROFESSION HERE].
       I have a passion for [YOUR INTEREST HERE].
     </p>
     <img src="[YOUR IMAGE HERE]" alt="Picture of [YOUR NAME HERE]">
