@@ -6,3 +6,9 @@
     border-right: 2px solid #000000;
   }
 }
+
+.container.custom-container {
+  padding: 0 50px;
+}
+
+
