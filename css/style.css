@@ -1,7 +1,5 @@
 @media only screen and (min-width: 992px) {
-  .nav-item {
-    padding: 0 0.5em;
-  }
+
   .nav-item:not(:last-child) {
     border-right: 2px solid #000000;
   }
