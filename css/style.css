@@ -9,5 +9,7 @@
 }
 
 .container.custom-container {
-  margin: 5em 10%;
+  margin-top: 5em;
+  margin-left: 10%;
+  margin-right: 10%;
 }
